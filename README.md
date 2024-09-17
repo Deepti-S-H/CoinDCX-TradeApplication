@@ -25,22 +25,22 @@ Step-3:You can run the application via the command line using Maven:
 
 
 How to Use:
-Enter your trigger buy price and trigger sell price in the GUI.
-The application will start fetching real-time market prices.
-When the current price hits the trigger points, the application will prepare the buy/sell order payloads and display them in the output area.
+ *  Enter your trigger buy price and trigger sell price in the GUI.
+ *  The application will start fetching real-time market prices.
+ *  When the current price hits the trigger points, the application will prepare the buy/sell order payloads and display them in the output area.
 
 	
 Technologies Used:
-Java: The programming language used to build the application.
-Maven: Used for project build and dependency management.
-WebSocket: For real-time data fetching from CoinDCX.
-Jackson: For JSON parsing and handling.
-Swing: To create a simple graphical user interface (GUI).
+ *  Java: The programming language used to build the application.
+ *  Maven: Used for project build and dependency management.
+ *  ebSocket: For real-time data fetching from CoinDCX.
+ *  Jackson: For JSON parsing and handling.
+ *  Swing: To create a simple graphical user interface (GUI).
 
 
 Future Improvements:
-Add automated order execution.
-Add support for multiple trading pairs.
-Add a more advanced user interface with charts and notifications.
+ *  Add automated order execution.
+ *  Add support for multiple trading pairs.
+ *  Add a more advanced user interface with charts and notifications.
 
 
