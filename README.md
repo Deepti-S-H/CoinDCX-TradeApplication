@@ -1,30 +1,30 @@
 # CoinDCX-TradeApplication
 
-Overview:
+# Overview:
 This Java application connects to the CoinDCX WebSocket API to fetch real-time cryptocurrency trading data. It allows users to specify trigger prices for buying and selling, and automatically prepares the necessary payloads for order operations when market conditions are met.
 
 
-Requirements
+# Requirements
 * Java 8 or later(I have used Vs code if u are comfortable with eclipse go for it)
 * Maven 3.6.0 or later
 * Red hat dependency analytics (install it from extensions)
 
 
-SetUp Instructions:  
-# Step-1: Clone this repository to your local machine using the following command:
+# SetUp Instructions:  
+ Step-1: Clone this repository to your local machine using the following command:
    git clone https://github.com/Deepti-S-H/CoinDCX-TradeApplication.git 
-# Step-2:Navigate to the project directory and run the following Maven commands to build the project:
-       cd CoinDCX-TradeApplication
-       mvn clean install
+ Step-2:Navigate to the project directory and run the following Maven commands to build the project:
+   *     cd CoinDCX-TradeApplication
+   *     mvn clean install
 (If u are facing any difficulty in building the project try the below command after successfully installing the maven
-  * mvn archetype:generate
-  * maven-archetype-quickstart
-  * Define groupId:com.example,
-  *        artifactId:mavenproject,
-  *        version:1.0-SNAPSHOT,
-  *        package:com.example.mavenproject)
-# Step-3:You can run the application via the command line using Maven:
- * mvn exec:java
+  *       mvn archetype:generate
+          maven-archetype-quickstart
+          groupId:com.example,
+          artifactId:mavenproject,
+          version:1.0-SNAPSHOT,
+          package:com.example.mavenproject)
+ Step-3:You can run the application via the command line using Maven:
+ *        mvn exec:java
 
 
 How to Use:
