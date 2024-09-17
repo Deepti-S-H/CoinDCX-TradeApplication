@@ -5,17 +5,17 @@ This Java application connects to the CoinDCX WebSocket API to fetch real-time c
 
 
 Requirements
-Java 8 or later(I have used Vs code if u are comfortable with eclipse go for it)
-Maven 3.6.0 or later
-Red hat dependency analytics (install it from extensions)
+* Java 8 or later(I have used Vs code if u are comfortable with eclipse go for it)
+* Maven 3.6.0 or later
+* Red hat dependency analytics (install it from extensions)
 
 
 SetUp Instructions:  
 # Step-1: Clone this repository to your local machine using the following command:
    git clone https://github.com/Deepti-S-H/CoinDCX-TradeApplication.git 
 # Step-2:Navigate to the project directory and run the following Maven commands to build the project:
-  * cd CoinDCX-TradeApplication
-  * mvn clean install
+       cd CoinDCX-TradeApplication
+       mvn clean install
 (If u are facing any difficulty in building the project try the below command after successfully installing the maven
   * mvn archetype:generate
   * maven-archetype-quickstart
