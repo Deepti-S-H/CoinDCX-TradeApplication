@@ -11,9 +11,9 @@ This Java application connects to the CoinDCX WebSocket API to fetch real-time c
 
 
 # SetUp Instructions:  
- Step-1: Clone this repository to your local machine using the following command:
+ * Step-1: Clone this repository to your local machine using the following command:
    git clone https://github.com/Deepti-S-H/CoinDCX-TradeApplication.git 
- Step-2:Navigate to the project directory and run the following Maven commands to build the project:
+ * Step-2:Navigate to the project directory and run the following Maven commands to build the project:
    *     cd CoinDCX-TradeApplication
    *     mvn clean install
 (If u are facing any difficulty in building the project try the below command after successfully installing the maven
