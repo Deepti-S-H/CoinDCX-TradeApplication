@@ -11,16 +11,19 @@ Red hat dependency analytics (install it from extensions)
 
 
 SetUp Instructions:  
-Step-1: Clone this repository to your local machine using the following command:
+# Step-1: Clone this repository to your local machine using the following command:
    git clone https://github.com/Deepti-S-H/CoinDCX-TradeApplication.git 
-Step-2:Navigate to the project directory and run the following Maven commands to build the project:
+# Step-2:Navigate to the project directory and run the following Maven commands to build the project:
   * cd CoinDCX-TradeApplication
   * mvn clean install
 (If u are facing any difficulty in building the project try the below command after successfully installing the maven
   * mvn archetype:generate
   * maven-archetype-quickstart
-  * Define groupId:com.example,artifactId:mavenproject,version:1.0-SNAPSHOT,package:com.example.mavenproject)
-Step-3:You can run the application via the command line using Maven:
+  * Define groupId:com.example,
+  *        artifactId:mavenproject,
+  *        version:1.0-SNAPSHOT,
+  *        package:com.example.mavenproject)
+# Step-3:You can run the application via the command line using Maven:
  * mvn exec:java
 
 
