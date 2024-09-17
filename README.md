@@ -19,7 +19,7 @@ This Java application connects to the CoinDCX WebSocket API to fetch real-time c
 (If u are facing any difficulty in building the project try the below command after successfully installing the maven)
   *       mvn archetype:generate
           maven-archetype-quickstart
-          groupId:com.example,
+  *       groupId:com.example,
           artifactId:mavenproject,
           version:1.0-SNAPSHOT,
           package:com.example.mavenproject
